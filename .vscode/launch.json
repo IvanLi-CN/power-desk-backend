@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "name": "Launch via bun",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/index.ts",
+      "type": "bun"
+    }
+  ]
+}

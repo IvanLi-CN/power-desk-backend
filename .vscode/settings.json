@@ -1,0 +1,19 @@
+{
+  "cSpell.words": ["daisyui", "milliamps"],
+  "i18n-ally.localesPaths": ["public/locales"],
+  "i18n-ally.keystyle": "flat",
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+  },
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit",
+  },
+}

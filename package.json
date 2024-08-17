@@ -1,0 +1,19 @@
+{
+  "name": "power-desk-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "drizzle-kit": "^0.24.0",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.5",
+    "mqtt": "^5.10.0",
+    "rxjs": "^7.8.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "better-sqlite3": "^11.1.2"
+  }
+}
